@@ -1,0 +1,7 @@
+Tính tổng toàn bộ các phần tử trong mảng, gọi là totalSum.
+Khởi tạo leftSum bằng 0 để lưu tổng các phần tử bên trái.
+Duyệt qua từng phần tử trong mảng:
+Giảm giá trị phần tử hiện tại khỏi totalSum để cập nhật tổng bên phải.
+Nếu leftSum bằng totalSum, trả về chỉ số hiện tại i.
+Nếu không, thêm giá trị phần tử hiện tại vào leftSum.
+Nếu không tìm thấy chỉ số nào thỏa mãn, trả về -1.
